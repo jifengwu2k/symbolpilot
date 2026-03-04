@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symbolpilot"
+version = "0.1.0a0"
+description = "An interactive, human-in-the-loop object file symbol resolver."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "live-tee-and-capture",
+    "typing; python_version < '3.5'"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/symbolpilot"
+"Bug Tracker" = "https://github.com/jifengwu2k/symbolpilot/issues"
